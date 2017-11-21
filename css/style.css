@@ -1,20 +1,14 @@
 header{
-	z-index: 30px;
+	z-index: 3;
 	height: 650px;
 	background-image: url('../img/header/banner.png');
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: cover;
 	position: relative;
+	padding-top: 20px;
 }
-.top{
-	width: 100%;
-	height:80px;
-	/*margin-top: 20px;*/
-	position: relative;	
-	top: 15px;
-	
-}
+
 .logo{
 	margin-left: -30px;
 }
@@ -25,8 +19,9 @@ header{
 }
 .num{
 	font-size: 15px;
+	font-weight: 600;
 }
-.callbtn{
+ .callbtn{
 	width: 140px;
 	height: 30px;
 	/*box-sizing: border-box;*/
@@ -34,13 +29,16 @@ header{
 	background-color:#ffc501;
 	border-radius: 20px;
 	font-size: 11px;
+	color: #2f3a4e;
+    font-weight: 600;
+    float: center;
 }
 .callbtn:before{
 	content: "";
     position: absolute;
     height: 0;
     width: 0;
-    margin-left: 2px;
+    margin-left: 10px;
   	top: 22px;
     border-left: 1px solid transparent;
     border-right: 10px solid transparent;
@@ -50,8 +48,7 @@ header{
 	text-decoration: none;
 }
 
-.banner-text{
-	height: 550px;
+.banner-text{	
 	position: relative;
 	top: 20px;
 	/*margin-left: 107px;*/
@@ -93,37 +90,27 @@ header{
 }
 .getadvice{
 	width: 190px;
-	height: 40px;
 	top: 110px;
-	padding: 13px;
+	padding: 10px 20px 10px 20px;
 	background-color:#ffc501;
 	border-radius: 20px;
-	font-size: 11px;
+	font-size: 10px;
 	text-transform:uppercase;
 	position: relative;
 	text-decoration:none !important;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 .getadvice a{
 	text-decoration: none;
 	/*color:#977f28;*/
 	color:#2f3a4e;
-	
+	font-weight: 600;
 }
 .tittle-product {
-	/*width: 100%;*/
-	height: 600px;
-	position: relative;
-	top: 120px;
-	/*display: flex;
-	justify-content: center;*/
-	/*margin-top: 30px;*/
-	text-align: center;
-	/*background-image: url(../img/block/backback-1.png);
-	background-color: rgba(255, 255, 255, 0.95);
-	background-repeat: no-repeat;
-	background-position: center;
-	background-size: cover;
-	background-blend-mode: overlay;*/
+	width: 100%;
+    height: 600px;
+    position: absolute;
+    text-align: center;
 }
 .h1tittle {
 	font-family: Open Sans Bold;
@@ -132,16 +119,28 @@ header{
 	font-weight: 800;
 }
 .block{
-	margin-top: 150px;
-	height: 400px;
+	height: 975px;
 	text-align: center;
+	display: block;
+	 background-image: url(../img/advantages/block/backback-1.png);
+    background-color: rgba(255, 255, 255, 0.95);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-blend-mode: overlay;
 }
-.block :hover{
-	 -webkit-transform: scale(1.1);
- 	 -ms-transform: scale(1.1);
- 	 transform: scale(1.1);
-   /*box-shadow: inset 0 0 0 23px;*/
-   	/*border:1px solid gray;*/
+.block1{
+	width: 285px;
+	height: 340px;
+	margin-left: 50px;
+	margin-top:150px;
+	padding: 30px;
+}
+.block1:hover{
+  box-shadow: inset 0 0 0 1px gray;
+  background-color:#fff;
+  border-radius: 10px;
+  box-shadow: 2px 2px 2px 2px  rgba(0, 0, 0, .5);
 
 }
  .block1-h1 {
@@ -156,7 +155,6 @@ header{
 .request{
 	width: 100%;
 	height: 450px;
-	position: absolute;
 	top: 1350px;
 	display: flex;
 	justify-content: center;
@@ -165,29 +163,42 @@ header{
 	background-position: center;
 	background-size: cover;
 	z-index: 2;
+	position: absolute;
+}
+.man{
+	margin-top:50px;
+	z-index: 2;
+}
+ .manimg{
+	position: absolute;
+	z-index: 2;
 }
 .blank{
-	width: 350px;
-    height: 470px;
+	width: 365px;
+    height: 500px;
     text-align: center;
     background-color: #ffffff;
-    box-shadow: 0 0 10px rgba(0,0,0,0.5);
-    padding-top: 10px;
+    box-shadow: 0px 0px 42.14px 0.86px rgba(0, 0, 0, 0.23);
+    padding-top: 60px;
+    z-index: 3;
+    position: relative;
+    margin-top: -50px;
 }
 .h1blank{
-	text-transform: uppercase;
-	font-weight: 800;
-	font-family: Open Sans Bold;
-	font-size: 2em;
+	margin-top: 5px;
+    font-size: 19px;
+    color: rgb(66, 73, 83);
+    text-transform: uppercase;
+    line-height: 1.6;
+    font-weight: 800;
+    letter-spacing: 1.5px;
+    text-align: center;
 }
 .blank form{
-	padding: 40px 60px 40px 60px;
+	padding: 25px 60px 40px 60px;
 	text-align: left;
 	text-transform:uppercase;
 	font-size: 10px;
-}
-.blank form label{
-	/*text-align: left !important;*/
 }
 .button{
 	width: 240px;
@@ -208,7 +219,7 @@ header{
 
 .statistic{
 	width: 100%;
-	height: 650px;
+	height: 695px;
 	margin:0;
 	position: absolute;
 	top: 1520px;
@@ -269,7 +280,7 @@ header{
 	width:100%;
 	height: 1085px;
 	position: absolute;
-	top: 2195px;
+	top: 2220px;	
 	background-image: url(../img/advantages/background.png);
 	background-repeat: no-repeat;
 	background-position: center;
@@ -284,22 +295,25 @@ header{
 	text-align: center;
 	margin-top: 60px;
 }
-.h1fasad{
-	font-family: Open Sans Bold;
-    text-transform: uppercase;
-    text-align: center;
-    font-weight: 800;
-}
 .fasad1 h1 {
 	font-family: Open Sans Bold;
     text-transform: capitalize;
     font-weight: 800;
     font-size: 16px;
 }
-.fasad1 .block1 img{
-	/*position: relative;*/
+.h1fasad{
+	font-family: Open Sans Bold;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 800;
 }
-/**/
+.fasad3 h1 {
+	font-family: Open Sans Bold;
+    text-transform: capitalize;
+    font-weight: 800;
+    font-size: 16px;
+}
+
 .fasad1 .block2{
 	margin-top: 30px;
 }
@@ -318,9 +332,7 @@ header{
     font-weight: 800;
     font-size: 16px;
 }
-.fasad2 .block1 img{
-	/*position: relative;*/
-}
+
 
 .fasad2 .block2{
 	margin-top: 30px;
@@ -340,84 +352,71 @@ header{
     font-weight: 800;
     font-size: 16px;
 }
-.fasad3 .block1 img{
-	/*position: relative;*/
-}
 
 .fasad3 .block2{
 	margin-top: 30px;
 }
  
 .truck{
-	width: 100%;
-	height: 835px;
-	top: 2920px;
-	position: absolute;
-	display: flex;
-	justify-content: center;
-	background-image: url(..//img/request2/background.png);
-	background-repeat: no-repeat;
-	background-position: center;
-	background-size: cover;
+    width: 100%;
+    height: 520px;
+    top: 3180px;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    background-image: url(..//img/request2/background.png);
+    background-repeat: no-repeat;
+    background-position: center;
 }
 .truckimg{
 
     position: absolute;
     width: 100%;
-    top: 420px;
+    top: 175px;
     height: 480px;
      overflow-x: hidden; 
 }
- .car .img-action.on{
-	    -webkit-animation-name: right-to-left 1s ease-out forwards;
 
-  animation: right-to-left 1s ease-out forwards; 
-
-}
  .car .img-action {
     position: absolute;
     left: 80%;
-/*         animation: right-to-left 1s ease-out forwards; 
-*/
 }
 
 .truck .blank2{
-	width: 360px;
-	height:510px;
-	text-align: center;
-	background-color: #ffffff;
-	box-shadow: 0 0 10px rgba(0,0,0,0.5);
-	padding-top: 40px;
-	margin-top: 335px;
-	z-index: 3;
-	position: absolute;
+	width: 365px;
+    height: 500px;
+    text-align: center;
+    background-color: #ffffff;
+    box-shadow: 0px 0px 42.14px 0.86px rgba(0, 0, 0, 0.23);
+    padding-top: 60px;
+    margin-top: 70px;
+    z-index: 3;
+    opacity: 0.9;
+    position: absolute;
 }
 .h1blank2{
-	text-transform: uppercase;
-	font-weight: 800;
-	font-family: Open Sans Bold;
-	font-size: 2em;
+	margin-top: 5px;
+    font-size: 19px;
+    color: rgb(66, 73, 83);
+    text-transform: uppercase;
+    line-height: 1.6;
+    font-weight: 800;
+    letter-spacing: 1.5px;
+    text-align: center;
 }
  .blank2 form{
-	padding: 40px 60px 40px 60px;
+	padding: 25px 60px 25px 60px;
 	text-align: left;
 	text-transform:uppercase;
 	font-size: 10px;
 }
-.blank form label{
-	/*text-align: left !important;*/
-}
 .truck .button{
-	width: 240px;
-	height: 50px;
-	/*box-sizing: border-box;*/
 	padding: 15px;
-	background-color:#ffc501;
-	border-radius: 25px;
-	font-size: 1em;
-	text-align: center;
-	margin-left: 60px;
-	text-transform:uppercase;
+    background-color: #ffc501;
+    border-radius: 25px;
+    font-size: 1em;
+    text-align: center;
+    text-transform: uppercase;
 }
 .truck .button a{
 	text-decoration:none;
@@ -472,20 +471,19 @@ header{
 	width: 100%;
 	height: 735px;
 	position: absolute;
-	top: 620px;
+	top: 4420px;
 	z-index: 3;
 	background-image: url(..//img/colorpick/background.png);
 	background-repeat: no-repeat;
-	    /*background-color: rgba(255, 255, 255, 0.95);*/
 	background-position: top center;
 	background-size: cover;
 	    background-blend-mode: overlay;
 }
 .pickcolor h1{
-	font-weight: 600;
 	font-family: Open Sans Bold;
-	font-size: 2em;
 	margin-top: 100px;
+	text-align: center;
+	    font-weight: 800;
 }
 .row1{
 	margin: 70px 0px 0px 160px;
@@ -523,8 +521,9 @@ header{
 .pickcolor .swiper-container-horizontal{
 	width: 1263px;
     height: 370px;
-}
 
+}
+ 
 
 .request3{
 	    width: 100%;
@@ -539,26 +538,52 @@ header{
     /* background-size: cover; */
     z-index: 3;
 }
+.swiper-container {
+      width: 100%;
+      height: 100%;
+    }
+    .swiper-slide {
+      text-align: center;
+      font-size: 18px;
+      /*background: #fff;*/
+      /* Center slide text vertically */
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: -webkit-flex;
+      display: flex;
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      -webkit-justify-content: center;
+      justify-content: center;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      -webkit-align-items: center;
+      align-items: center;
+    }
 
 .request3 .blank2{
-	width: 360px;
-	height:510px;
+	width: 365px;
+	height:500px;
 	text-align: center;
 	background-color: #ffffff;
-	box-shadow: 0 0 10px rgba(0,0,0,0.5);
-	padding-top: 40px;
+	box-shadow: 0px 0px 42.14px 0.86px rgba(0, 0, 0, 0.23);
+	padding-top: 60px;
 	margin-top: 200px;
 	z-index: 3;
 	position: absolute;
 }
 .h1blank2{
-	text-transform: uppercase;
-	font-weight: 800;
-	font-family: Open Sans Bold;
-	font-size: 2em;
+    margin-top: 5px;
+    font-size: 19px;
+    color: rgb(66, 73, 83);
+    text-transform: uppercase;
+    line-height: 1.6;
+    font-weight: 800;
+    letter-spacing: 1.5px;
+    text-align: center;
 }
  .blank2 form{
-	padding: 40px 60px 40px 60px;
+	padding: 25px 60px 25px 60px;
 	text-align: left;
 	text-transform:uppercase;
 	font-size: 10px;
@@ -567,7 +592,6 @@ header{
 .request3 .button{
 	width: 240px;
 	height: 50px;
-	/*box-sizing: border-box;*/
 	padding: 15px;
 	background-color:#ffc501;
 	border-radius: 25px;
@@ -655,7 +679,9 @@ header{
 	margin-bottom: 20px;
 }
 
-
+.faq1{
+	z-index: 30;5
+}
 .question{
 	width: 100%;
     height: 835px;
@@ -694,6 +720,25 @@ header{
 	font-weight: 600;
     font-family: Open Sans Bold;
     color:#4d555f;
+}
+.getadvice2{
+	width: 190px;
+    height: 40px;
+    top: 513px;
+    padding: 5px 0px 5px 5px;
+    background-color: #ffc501;
+    margin-left: 255px;
+    border-radius: 20px;
+    font-size: 11px;
+    text-transform: uppercase;
+    position: absolute;
+    text-decoration: none !important;
+}
+
+.getadvice2 a{
+	text-decoration: none;
+	color:#2f3a4e;
+	font-weight: 600;
 }
 
 
@@ -771,16 +816,17 @@ div.panel {
     z-index: 3;
 }
 .request4 .blank{
-	width: 360px;
-	height:510px;
-	text-align: center;
-	background-color: #ffffff;
-	box-shadow: 0 0 10px rgba(0,0,0,0.5);
-	padding-top: 40px;
-	margin-top: 25px;
-	z-index: 3;
-	position: absolute;
+	width: 365px;
+    height: 500px;
+    text-align: center;
+    background-color: #ffffff;
+    box-shadow: 0px 0px 42.14px 0.86px rgba(0, 0, 0, 0.23);
+    padding-top: 60px;
+    z-index: 3;
+    position: absolute;
 }
+
+
 
 
 .map{

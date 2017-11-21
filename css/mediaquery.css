@@ -1,0 +1,116 @@
+/*.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}*/
+
+@media only screen and (max-width: 1180px) and (min-width:1109px){
+
+	.manimg{
+		margin-left: -35px;
+	}
+}
+
+@media only screen and (min-width: 768px) and (max-width: 929px){
+	/*body{
+		width: 100%;
+	}*/
+
+	.block1{
+		width: 200px;
+		height: 350px;
+	}
+	.block1 img{
+		height: 60px;
+	}
+	.block1-h1{
+		font-size: 15px;
+	}
+  .block1-p{
+  	font-size: 10px;
+  }
+	.manimg{
+		left: 500px;
+	}
+
+}
+
+@media only screen  and (max-width: 768px){
+	body{
+		/*width: 760px;*/
+		width: 100%;
+	}
+
+	.block{
+		height: 750px;
+	}
+	.block1{
+		width: 90%;
+	    height: 250px;
+	    margin: auto;
+	    /* margin-top: 50px; */
+	    /* padding: 10px; */
+	    z-index: 4;
+	}
+	.block1 img{
+		height: 50px;
+	}
+	.block1-h1{
+		font-size: 15px;
+	}
+  .block1-p{
+  	font-size: 10px;
+  	height: 100px;
+  }
+  .request{
+  	top: 1550px;
+  }
+}
+
+
+
+@media only screen  and (max-width: 480px) and (min-width: 331px) {
+  body{
+  	width: 100%;
+  }
+  header{
+  	background-position: unset;
+  }
+  .ordercall, .callbtn:before{
+  	margin-top: 100px;
+  }
+  .banner-text h2{
+	font-size: 30px;
+  }
+  .block1 {
+  	width: 80%;
+    /* z-index: 5; */
+    height: 200px;
+    margin-top: 5px;
+    padding: 10px;
+  }
+ 
+	.block1 img{
+		height: 50px;
+	}
+	.block1-h1{
+		font-size: 10px;
+	}
+  .block1-p{
+  	font-size: 8px;
+  }
+  .col-12 {width: 100%;}
+  .tittle-product h1{
+  	font-size: 25px;
+  }
+}
+
+/*@media only screen and (max-width: )*/
+
