@@ -130,9 +130,10 @@ header{
     background-blend-mode: overlay;
 }
 .block1{
-	width: 285px;
+	width: 100%;
 	height: 340px;
-	margin-left: 50px;
+	/*margin-left: 50px;*/
+	margin:auto;
 	margin-top:150px;
 	padding: 30px;
 }
@@ -171,6 +172,7 @@ header{
 }
  .manimg{
 	position: absolute;
+	height: 400px;
 	z-index: 2;
 }
 .blank{
@@ -182,7 +184,7 @@ header{
     padding-top: 60px;
     z-index: 3;
     position: relative;
-    margin-top: -50px;
+    margin-top: -75px;
 }
 .h1blank{
 	margin-top: 5px;
@@ -231,8 +233,11 @@ header{
 }
 .info{
 	margin-top: 380px;
+}
+.info .row{
 	display: flex;
-	justify-content: space-between;
+    width: 100%;
+    justify-content: space-around;
 }
 .static1 {
     margin: 0px 0px 0px 100px;
@@ -247,7 +252,6 @@ header{
 
 }
 .static2{
-    margin: 115px 220px 0px 0px;
 	 text-align: center;
 }
 .h1static2{
@@ -260,7 +264,6 @@ header{
 
 }
 .static3{
-    margin: 60px 180px 0px 0px;
 	text-align: center;
 }
 .h1static3{
@@ -486,13 +489,18 @@ header{
 	    font-weight: 800;
 }
 .row1{
-	margin: 70px 0px 0px 160px;
+	width: 100%;
 	display:flex;
-	justify-content: center;
+	height: 140px;
+	justify-content: space-around;
 }
 .imgcolor{
 	width: 100px;
 	height: 100px;
+}
+.color{
+	width: 130px;
+	height: 130px;
 }
 .imgcolor p{
 	text-align: center;
@@ -500,12 +508,14 @@ header{
     font-weight: 800;
     font-size: 20px;
     margin-top:5px;
+   
 }
 .row2{
-	margin: 70px 0px 0px 160px;
+	/*margin: 70px 0px 0px 160px;*/
+	width: 100%;
 	display:flex;
-	justify-content: center;
-	top:30px;
+	height: 140px;
+	justify-content: space-around;
 }
 .row3{
 	margin: 70px 0px 0px 160px;
@@ -824,6 +834,7 @@ div.panel {
     padding-top: 60px;
     z-index: 3;
     position: absolute;
+    margin-top:0;
 }
 
 
