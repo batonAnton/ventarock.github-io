@@ -14,37 +14,49 @@
 @media only screen and (max-width: 1200px){
 
 }
-@media only screen and (max-width: 992px){
-	.fasad{
-		/*top: 2350px;*/
-	}
+@media only screen and (max-width: 992px){ 
+
 	.fasad1, .fasad2, .fasad3{
 		width: 962px;
 	}
 	.block3{
 		width: 280px;
 	}
-	.block4{
-		/*top: 700px;
-		left: -700px;
-		position: absolute;*/
+	.pickcolor .row1, .row2{
+		margin-left: 0px;
+		margin-top: 0px;
 	}
-	/*truck{
-		top: 3200px;
-	}*/
+	
+	#colordisap{
+		display: none;
+	}
+	.img2_2{
+		width: 70%;
+	}
+	.question{
+		top: 7100px;
+	}
+	.blog-block{
+	padding: 20px 40px 40px 90px;
+	margin-bottom:0px;
+	min-height:0px;
+}
 }
 
-@media only screen and (max-width: 1180px) and (min-width:1109px){
 
-	.manimg{
-		margin-left: -35px;
-	}
-}
 
 @media only screen and (min-width: 768px) and (max-width: 929px){
 	/*body{
 		width: 100%;
 	}*/
+	.img2_2 {
+    width: 70%;
+}
+.blog-block{
+	padding: 20px 40px 40px 90px;
+	margin-bottom:-35px;
+	min-height:238px;
+}
 
 	.block1{
 		width: 200px;
@@ -59,10 +71,14 @@
   .block1-p{
   	font-size: 10px;
   }
-	/*.manimg{
-		left: 500px;
-	}*/
-
+  .pickcolor .row1, .row2{
+  	margin-left:0px;
+  	margin-top: 0px;
+  }
+  .color{
+  	width: 100px;
+  	height: 100px;
+  }
 }
 
 @media only screen  and (max-width: 768px){
@@ -70,6 +86,9 @@
 		/*width: 760px;*/
 		width: 100%;
 	}
+	.img2_2 {
+    width: 85%;
+}
 
 	.block{
 		height: 750px;
@@ -78,8 +97,6 @@
 		width: 90%;
 	    height: 250px;
 	    margin: auto;
-	    /* margin-top: 50px; */
-	    /* padding: 10px; */
 	    z-index: 4;
 	}
 	.block1 img{
@@ -117,14 +134,42 @@
   .fasad{
   	top: 2250px;
   }
+  .blog-block{
+	padding: 20px 40px 40px 20px;
+	margin-bottom:-35px;
+	min-height:238px;
+}
+.fasadplate .fasadplate1 {
+	height: 330px;
+}
+/*.center{
+	height: 330px;
+}*/
 }
 
 
+@media only screen  and (max-width: 630px) and (min-width: 520px){
+	.img2_2 {
+    width: 100%;
+}
+.fasadplate .fasadplate1 {
+	height: 330px;
+}
+}
+@media only screen  and (max-width: 630px) and (min-width: 500px){
+	.fasadplate .fasadplate1 {
+	height: 330px;
+}
+}
 
 @media only screen  and (max-width: 480px) and (min-width: 331px) {
   body{
   	width: 100%;
   }
+  .fasadplate .fasadplate1 {
+	height: 330px;
+}
+	
   header{
   	background-position: unset;
   }
@@ -133,6 +178,9 @@
   }
   .banner-text h2{
 	font-size: 30px;
+  }
+  .projects img{
+  	width: 100%;
   }
   .block1 {
   	width: 80%;
@@ -190,7 +238,7 @@
 		top: 5320px;
 	}
 	.pickcolor{
-		top: 5500px;
+		top: 5720px;
 	}
 
 	.request3{
@@ -213,5 +261,11 @@
 	}
 	footer{
 		top: 10160px;
+	}
+}
+
+@media only screen and (max-width:355px){
+	.block3{
+		width: 65%;
 	}
 }
