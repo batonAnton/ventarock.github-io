@@ -1,3 +1,7 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i&subset=cyrillic,cyrillic-ext');
+body{
+	font-family: 'Open Sans';
+}
 header{
 	z-index: 3;
 	height: 650px;
@@ -89,7 +93,7 @@ header{
 	margin-top: -40px;
 }
 .getadvice{
-	width: 190px;
+	width: 195px;
 	top: 110px;
 	padding: 10px 20px 10px 20px;
 	background-color:#ffc501;
@@ -109,12 +113,12 @@ header{
 .tittle-product {
 	width: 100%;
     height: 600px;
-    position: absolute;
-    text-align: center;
+	position: relative;    
+	text-align: center;
 }
 .h1tittle {
-	font-family: Open Sans Bold;
-	text-transform: uppercase;
+/*	font-family: Open Sans Bold;
+*/	text-transform: uppercase;
 	text-align: center;
 	font-weight: 800;
 }
@@ -137,11 +141,57 @@ header{
 	margin-top:150px;
 	padding: 30px;
 }
+/*.блок_1 {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 1136px;
+  height: 9675px;
+  z-index: 373;
+}*/
+/*.Монтаж__ентильо_аної_фасадної_системи_на_зо_ніш {
+  font-size: 10px;
+  font-family: "OpenSans";
+  color: rgb(66, 73, 83);
+  line-height: 1.2;
+  position: absolute;
+  left: 145.958px;
+  top: 1040.568px;
+  width: 217px;
+  height: 83px;
+  z-index: 371;
+}
+.Економія_до_50__ {
+  font-size: 16px;
+  font-family: "OpenSans";
+  color: rgb(66, 73, 83);
+  line-height: 0.001;
+  text-align: left;
+  position: absolute;
+  left: 175.937px;
+  top: 1008.511px;
+  z-index: 370;
+}
+.Прямоугольник__скругл__углы_7 {
+  border-width: 288px;
+  border-color: rgb(255, 255, 255);
+  border-style: solid;
+  border-radius: 5px;
+  background-color: rgb(81, 85, 123);
+  
+  position: absolute;
+  left: 106px;
+  top: 887px;
+  width: 0;
+  height: 0;
+  z-index: 369;
+}*/
+
 .block1:hover{
   box-shadow: inset 0 0 0 1px gray;
   background-color:#fff;
   border-radius: 10px;
-  box-shadow: 2px 2px 2px 2px  rgba(0, 0, 0, .5);
+  box-shadow: 0px 0px 42.14px 0.86px rgba(0, 0, 0, 0.23);;
 
 }
  .block1-h1 {
@@ -156,7 +206,6 @@ header{
 .request{
 	width: 100%;
 	height: 450px;
-	top: 1350px;
 	display: flex;
 	justify-content: center;
 	background-image: url(../img/request/background.png);
@@ -164,7 +213,7 @@ header{
 	background-position: center;
 	background-size: cover;
 	z-index: 2;
-	position: absolute;
+	position: relative;
 }
 .man{
 	margin-top:50px;
@@ -221,10 +270,10 @@ header{
 
 .statistic{
 	width: 100%;
-	height: 695px;
+	height: 495px;
 	margin:0;
-	position: absolute;
-	top: 1520px;
+	position: relative;
+	top: -110px;
 	z-index: 1;
 	background-image: url(..//img/statistic/background.png);
 	background-repeat: no-repeat;
@@ -232,7 +281,7 @@ header{
 	background-size: 100% 100%;
 }
 .info{
-	margin-top: 380px;
+	margin-top: 180px;
 }
 .info .row{
 	display: flex;
@@ -282,8 +331,7 @@ header{
 .fasad{
 	width:100%;
 	height: 1085px;
-	position: absolute;
-	top: 2220px;	
+	position: relative;	
 	background-image: url(../img/advantages/background.png);
 	background-repeat: no-repeat;
 	background-position: center;
@@ -296,23 +344,23 @@ header{
 	display: flex;
 	justify-content: space-between;
 	text-align: center;
-	margin-top: 60px;
+	margin: 60px;
 }
 .fasad1 h1 {
-	font-family: Open Sans Bold;
-    text-transform: capitalize;
+/*	font-family: Open Sans Bold;
+*/    text-transform: capitalize;
     font-weight: 800;
     font-size: 16px;
 }
 .h1fasad{
-	font-family: Open Sans Bold;
-    text-transform: uppercase;
+/*	font-family: Open Sans Bold;
+*/    text-transform: uppercase;
     text-align: center;
     font-weight: 800;
 }
 .fasad3 h1 {
-	font-family: Open Sans Bold;
-    text-transform: capitalize;
+/*
+*/    text-transform: capitalize;
     font-weight: 800;
     font-size: 16px;
 }
@@ -327,12 +375,12 @@ header{
 	display: flex;
 	justify-content: space-between;
 	text-align: center;
-	margin-top: 30px;
+	margin: 60px;
 }
 
 .fasad2 h1 {
-	font-family: Open Sans Bold;
-    text-transform: capitalize;
+/*	font-family: Open Sans Bold;
+*/    text-transform: capitalize;
     font-weight: 800;
     font-size: 16px;
 }
@@ -347,12 +395,12 @@ header{
 	display: flex;
 	justify-content: space-between;
 	text-align: center;
-	margin-top: 30px;
+	margin: 60px;
 }
 
 .fasad3 h1 {
-	font-family: Open Sans Bold;
-    text-transform: capitalize;
+/*	font-family: Open Sans Bold;
+*/    text-transform: capitalize;
     font-weight: 800;
     font-size: 16px;
 }
@@ -364,8 +412,8 @@ header{
 .truck{
     width: 100%;
     height: 520px;
-    top: 3180px;
-    position: absolute;
+    top: -100px;
+	position: relative;
     display: flex;
     justify-content: center;
     background-image: url(..//img/request2/background.png);
@@ -393,7 +441,7 @@ header{
     background-color: #ffffff;
     box-shadow: 0px 0px 42.14px 0.86px rgba(0, 0, 0, 0.23);
     padding-top: 60px;
-    margin-top: 70px;
+    margin-top: 50px;
     z-index: 3;
     opacity: 0.9;
     position: absolute;
@@ -428,28 +476,19 @@ header{
 }
 
 .fasadplate{
-	position: absolute;
+	position: relative;
 	width: 100%;
-	height: 630px;
-	top: 3800px;
+	height: 750px;
 }
-.fasadplate .plate1{
-	width: 100%;
-	/*height:100%;*/
-	text-align: center;
-}
-/*.swiper-container {
-    width: 100%;
-    height: 100%;
-}*/
+
 .fasadplate .fasadplate1{
-	    width: 1075px;
-    height: 520px;
+	    /*width: 1075px;*/
+    /*height: 520px;*/
     /*margin-left: 50px;*/
 }
 .fasadplate h1{
-	font-family: Open Sans Bold;
-    text-transform: uppercase;
+/*	font-family: Open Sans Bold;
+*/    text-transform: uppercase;
     text-align: center;
     font-weight: 800;
 }
@@ -473,9 +512,8 @@ header{
 
 .pickcolor{
 	width: 100%;
-	height: 735px;
-	position: absolute;
-	top: 4600px;
+	height: 835px;
+	position: relative;
 	z-index: 3;
 	background-image: url(..//img/colorpick/background.png);
 	background-repeat: no-repeat;
@@ -484,8 +522,8 @@ header{
 	    background-blend-mode: overlay;
 }
 .pickcolor h1{
-	font-family: Open Sans Bold;
-	margin-top: 100px;
+/*	font-family: Open Sans Bold;
+*/	margin-top: 100px;
 	text-align: center;
 	    font-weight: 800;
 }
@@ -507,8 +545,8 @@ header{
 }
 .color p{
 	text-align: center;
-	font-family: Open Sans Bold;
-    font-weight: 800;
+/*	font-family: Open Sans Bold;
+*/    font-weight: 800;
     font-size: 20px;
     margin-top:5px;
    
@@ -531,20 +569,17 @@ header{
 .request3{
 	width: 100%;
     height: 860px;
-    top: 5090px;
-    position: absolute;
-    display: flex;
+    top: -100px;
+	position: relative;
+	display: flex;
     justify-content: center;
     background-image: url(..//img/request2/background.png);
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: top;
     /* background-size: cover; */
     z-index: 3;
 }
-.swiper-container {
-      width: 100%;
-      height: 100%;
-    }
+
     .swiper-slide {
       text-align: center;
       font-size: 18px;
@@ -571,7 +606,7 @@ header{
 	background-color: #ffffff;
 	box-shadow: 0px 0px 42.14px 0.86px rgba(0, 0, 0, 0.23);
 	padding-top: 60px;
-	margin-top: 200px;
+	margin-top: 20px;
 	z-index: 3;
 	position: absolute;
 }
@@ -613,8 +648,8 @@ header{
 .content_review{
 	width: 100%;
 	height: 1600px;
-	position: absolute;
-	top: 5100px;
+	top: -500px;
+	position: relative;
 	background-image: url(..//img/content_review/background.png);
 	background-repeat: no-repeat;
 	background-position: center;
@@ -632,25 +667,11 @@ header{
 	text-align: center;
 	text-transform: uppercase;
 	font-weight: 800;
-	font-family: Open Sans Bold;
-	font-size: 2em;
+/*	font-family: Open Sans Bold;
+*/	font-size: 2em;
 	margin-bottom: 50px;	
 }
-.content_review .links{
-	/*display: flex;
-	justify-content: space-between;
-	text-align: center;
-	/*height: 440px;*/
-}
-/*.content_review .row1{
-	 margin: 70px 0px 0px 160px;
 
-
-}*/
-/*.content_review .row2{
-	margin-top: 425px;
-	position: absolute;
-}*/
 .img2_2{
 	width: 100%;
 }
@@ -673,8 +694,10 @@ header{
     position: relative;
 }
 
-.person1{
+.person1 {
 	text-align: center;
+	font-size: 16px;
+	margin-bottom:40px;
 }
 .content_review .gold{
 	color:#fee240;
@@ -687,10 +710,10 @@ header{
 }
 .question{
 	width: 100%;
-    height: 835px;
-    top: 7100px;
-    position: absolute;
-    display: flex;
+    height: 535px;
+    top: -645px;
+	position: relative;
+	display: flex;
     justify-content: center;
     background-image: url(..//img/question/background.png);
     background-repeat: no-repeat;
@@ -699,7 +722,7 @@ header{
     background-blend-mode: overlay;
 }
 .phone{
-	margin: 265px 215px 0px 0px;
+	margin: 140px 215px 0px 0px;
  -webkit-transition: all 0.3s ease;;
   -moz-transition: all 0.3s ease;;
   -o-transition: all 0.3s ease;;
@@ -711,23 +734,23 @@ header{
   transform: rotateZ(10deg);
 }
 .text{
-	margin: 330px 210px 0px 0px;
+	margin: 130px 210px 0px 0px;
 }
 .text h1{
 	text-transform: uppercase;
 	font-weight: 600;
-    font-family: Open Sans Bold;
+    /*font-family: Open Sans Bold;*/
     font-size: 2em;
 }
 .text p{
 	font-weight: 600;
-    font-family: Open Sans Bold;
+    /*font-family: Open Sans Bold;*/
     color:#4d555f;
 }
 .getadvice2{
 	width: 190px;
     height: 40px;
-    top: 513px;
+    top: 300px;
     padding: 5px 0px 5px 5px;
     background-color: #ffc501;
     margin-left: 255px;
@@ -747,21 +770,20 @@ header{
 
 .oftenquestion{
 	width: 100%;
-	height: 690px;
-	top: 7775px;
-    position: absolute;
+	top:-500px;
+	position: relative;
     z-index: 3;
 }
 .h_1{
 	text-align: center;
     font-weight: 600;
-    font-family: Open Sans Bold;
-    font-size: 3em;
+/*    font-family: Open Sans Bold;
+*/    font-size: 3em;
     margin-bottom: 60px;
 }
 .center {
     margin: auto;
-    width: 50%;
+    /*width: 50%;*/
     padding: 10px;
 }
 .FAQ	{
@@ -808,9 +830,9 @@ div.panel {
 .request4{
     width: 100%;
     height: 460px;
-    top: 8290px;
-    position: absolute;
-    display: flex;
+    top: -400px;
+	position: relative;    
+	display: flex;
     justify-content: center;
     background-image: url(..//img/request4/background.png);
     background-repeat: no-repeat;
@@ -836,9 +858,9 @@ div.panel {
 .map{
 	width: 100%;
     height: 655px;
-    top: 8720px;
-    position: absolute;
-    display: flex;
+	position: relative;    
+	top: -430px;
+	display: flex;
     justify-content: center;
     background-image: url(..//img/maps/map.png);
     background-repeat: no-repeat;
@@ -874,7 +896,7 @@ div.panel {
 }
 .location p{
 	font-weight: 600;
-    font-family: Open Sans Bold;
+    font-family: 'Open Sans';
     color: #4d555f;
 }
 
@@ -882,9 +904,9 @@ div.panel {
 footer{
 	width: 100%;
 	height: 200px;
-	 top: 9335px;
-    position: absolute;
-    display: flex;
+	top: -475px;
+	position: relative;    
+	display: flex;
     justify-content: center;
     background-image: url(..//img/footer/background.png);
     background-repeat: no-repeat;
