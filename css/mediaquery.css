@@ -11,18 +11,60 @@
 .col-11 {width: 91.66%;}
 .col-12 {width: 100%;}*/
 
+@media only screen and (min-width:320px) and (max-width:600px ){
+	header{
+  	background-position: unset;
+  }
+  .callbtn:before {
+  	top:88px;
+  }
+  .ordercall1{
+  	margin-top:65px;
+  	margin-right: 0px; 
+  }
+  .banner-text2{
+  	top:55px;
+  }
+  .getadvice{
+  	top: 60px;
+  }
+  .tittle-product, .fasad{
+  	top: -50px;
+  }
+  .block1{
+	margin-top:0px;
+  }
+  .static1{
+    margin: 0px 0px 0px 50px;
+  }
+  .h1static1, .h1static2, .h1static3, .h1fasad{
+  	font-size: 2em;
+  }
+  .truckimg{
+  	display: none;
+  }
+
+}
+@media only screen  and (min-width: 760px) and (max-width: 990px){
+	.fasad1, .fasad2, .fasad3{
+		display: initial;
+	}
+	.fasadplate .swiper-container .plate1{
+	width: 80%;
+}
+}
 @media only screen and (min-width: 1800px){
+	.img2_2 {	
+    width: 60%;
+}
+@media only screen and (min-width: 1340px) and (max-width: 1389px){
 	.img2_2 {
     width: 60%;
 }
-@media only screen and (min-width: 1340px) and (max-width: 1800px){
-	.img2_2 {
-    width: 70%;
 }
-}
-@media only screen and (min-width: 1280px) and (max-width: 1340px){
+@media only screen and (min-width: 1090px) and (max-width: 1340px){
 	.img2_2 {
-    width: 100%;
+    width: 115%;
 }
 @media only screen and (max-width: 992px){ 
 
@@ -56,9 +98,7 @@
 
 
 @media only screen and (min-width: 768px) and (max-width: 929px){
-	/*body{
-		width: 100%;
-	}*/
+	
 	.img2_2 {
     width: 70%;
 }
@@ -89,6 +129,15 @@
   	width: 100px;
   	height: 100px;
   }
+  .fasadplate1, .plate1{
+	width: 50%;
+}
+.fasadplate{
+	height: 450px;
+}
+.manimg{
+	height: 0px;
+}
 }
 
 @media only screen  and (max-width: 768px){
@@ -152,9 +201,10 @@
 .fasadplate .fasadplate1 {
 	height: 330px;
 }
-/*.center{
-	height: 330px;
-}*/
+.fasadplate .swiper-container .plate1{
+	width: 60%;
+}
+
 }
 
 
@@ -194,7 +244,6 @@
   }
   .block1 {
   	width: 80%;
-    /* z-index: 5; */
     height: 200px;
     margin-top: 5px;
     padding: 10px;
@@ -216,14 +265,13 @@
 }
 
 @media only screen and (max-width:623px){
-	header{
+	/*header{
   	background-position: unset;
-  }
+  }*/
 }
 
 @media only screen and (max-width:414px){
 	.fasad{
-		/*width: 415px;*/
 		height: 2535px;
 		background-position:unset;
 		top: 2250px;
@@ -274,8 +322,3 @@
 	}
 }
 
-@media only screen and (max-width:355px){
-	.block3{
-		width: 65%;
-	}
-}
