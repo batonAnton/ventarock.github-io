@@ -1,8 +1,9 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i&subset=cyrillic,cyrillic-ext');
 body{
 	font-family: 'Open Sans';
-	height:9770px;
+	height: 9770px;
 }
+
 header{
 	z-index: 3;
 	height: 650px;
@@ -17,7 +18,7 @@ header{
 .logo{
 	margin-left: -30px;
 }
-.ordercall{
+.ordercall1{
 	text-align: center;
 	margin-right: 50px;
 	float: right;
@@ -94,23 +95,28 @@ header{
 	margin-top: -40px;
 }
 .getadvice{
-	width: 195px;
-	top: 110px;
-	padding: 10px 20px 10px 20px;
-	background-color:#ffc501;
-	border-radius: 20px;
-	font-size: 10px;
-	text-transform:uppercase;
-	position: relative;
-	text-decoration:none !important;
-	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	width: 213px;
+    height: 50px;
+    top: 100px;
+    text-align: center;
+    background-color: #ffc501;
+    border-radius: 50px;
+    text-transform: uppercase;
+    position: absolute;
+    text-decoration: none !important;
+}
+.getadvice span{
+	font-size: 9px;
+    font-weight: 700;
+    color: rgb(47, 58, 78);
+    text-transform: uppercase;
+    display: inline-block;
 }
 .getadvice a{
-	text-decoration: none;
-	/*color:#977f28;*/
-	color:#2f3a4e;
-	font-weight: 600;
+	text-decoration:none;
+	line-height: 3em;
 }
+
 .tittle-product {
 	width: 100%;
     height: 600px;
@@ -338,7 +344,18 @@ header{
 	background-position: center;
 	background-size: 100% 100%;
 	z-index: 2;
+	display: initial;
 	/*position: relative;*/
+}
+.fasad1, .fasad2{
+	height: 225px;
+}
+.block3{
+	text-align:center;
+}
+.block3 img{
+	width: 106px;
+	height: 102px;
 }
 
 .fasad1{
@@ -348,18 +365,16 @@ header{
 	margin: 60px;
 }
 .fasad1 h1 {
-/*	font-family: Open Sans Bold;
-*/    text-transform: capitalize;
+    text-transform: capitalize;
     font-weight: 800;
     font-size: 16px;
 }
 .h1fasad{
-/*	font-family: Open Sans Bold;
-*/    text-transform: uppercase;
+    text-transform: uppercase;
     text-align: center;
     font-weight: 800;
 }
-.fasad3 h1 {
+.fasad h1 {
 /*
 */    text-transform: capitalize;
     font-weight: 800;
@@ -399,16 +414,16 @@ header{
 	margin: 60px;
 }
 
-.fasad3 h1 {
-/*	font-family: Open Sans Bold;
-*/    text-transform: capitalize;
+/*.fasad3 h1 {
+	font-family: Open Sans Bold;
+    text-transform: capitalize;
     font-weight: 800;
     font-size: 16px;
 }
 
 .fasad3 .block2{
 	margin-top: 30px;
-}
+}*/
  
 .truck{
     width: 100%;
@@ -739,33 +754,37 @@ header{
 }
 .text h1{
 	text-transform: uppercase;
-	font-weight: 600;
-    /*font-family: Open Sans Bold;*/
+	font-weight: 700;
     font-size: 2em;
+    padding-bottom: 20px;
 }
 .text p{
 	font-weight: 600;
-    /*font-family: Open Sans Bold;*/
     color:#4d555f;
 }
 .getadvice2{
-	width: 190px;
-    height: 40px;
-    top: 300px;
-    padding: 5px 0px 5px 5px;
+	width: 213px;
+    height: 50px;
+    top: 350px;
+    text-align: center;
     background-color: #ffc501;
     margin-left: 255px;
-    border-radius: 20px;
-    font-size: 11px;
+    border-radius: 50px;
     text-transform: uppercase;
     position: absolute;
     text-decoration: none !important;
 }
-
 .getadvice2 a{
+	text-decoration:none;
+	line-height: 3em;
+}
+
+.getadvice2 a span{
 	text-decoration: none;
 	color:#2f3a4e;
 	font-weight: 600;
+	font-size: 9px;
+	position: relative;
 }
 
 
@@ -815,7 +834,10 @@ button.accordion:after{
 button.accordion.active:after {
     content: "\2212";
 }
-
+.FAQ p{
+	font-size: 12px;
+	margin:20px 0px 20px 0px;
+}
 
 button.accordion.active, button.accordion:hover {
     background-color: #ccc; 
@@ -932,7 +954,23 @@ footer{
 }
 .p_footer{
 	color: #fff;
+	font-size: 20px;
 }
 .logo2{
 	margin-left: -30px;
+}
+.contactus{
+	float: right;
+	margin-top: -50px;
+	color: white;
+}
+.socialnet{
+	margin-bottom: 10px;
+}
+.contactus a{
+	color: white;	
+}
+.callbtn2 a{
+    color: #23527c;
+	text-transform: none;
 }
