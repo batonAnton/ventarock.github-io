@@ -40,9 +40,13 @@
   .h1static1, .h1static2, .h1static3, .h1fasad{
   	font-size: 2em;
   }
-  .truckimg{
+  .truckimg, .man{
   	display: none;
   }
+ 	.blank, .truck .blank2, .request3 .blank2, .request4 .blank{
+ 		width: 310px;
+ 	}
+  
 	.fasadplate h1{
 		font-size: 2em;
 	}
