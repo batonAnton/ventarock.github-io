@@ -43,6 +43,77 @@
   .truckimg{
   	display: none;
   }
+	.fasadplate h1{
+		font-size: 2em;
+	}
+	.plate1{
+		width: 100%;
+	}
+	.pickcolor h1{
+		font-size: 2em;
+	}
+	.pickcolor{
+		overflow: hidden;
+	}
+	.col-xs-6{
+		width: 100%;
+	}
+	.blog-block{
+		min-height: 120px;
+	}
+	.content_review{
+		top: -600px;
+		height: 0px;
+	}
+	.request4{
+		top: 0px;
+	}
+	 .reviews_block .swiper-container .swiper-slide .person1 p{
+		font-size: 13px;
+	}
+	.question, .oftenquestion {
+		top: -145px;
+	}
+	.phone{
+		display: none;
+	}
+	.text{
+		margin:120px;
+	}
+	.text p{
+		font-size: 13px;
+
+	}
+	.text h1{
+		font-size: 25px;
+	}
+	.getadvice2{
+		margin-left:0px;
+		margin-top: 50px;
+	}
+	.oftenquestion h1{
+		font-size: 2em;
+	}
+	.FAQ{
+		width: 300px;
+	}
+	.request4{
+		top: -50px;
+	}
+	.map{
+		top: -220px
+	}
+	footer{
+		top: -275px;
+	}
+	.contactus{
+		margin-top: 30px;
+		float: none;
+		text-align: center;
+	}
+	.callbtn2{
+		margin:auto;
+	}
 
 }
 @media only screen  and (min-width: 760px) and (max-width: 990px){
@@ -53,10 +124,7 @@
 	width: 80%;
 }
 }
-@media only screen and (min-width: 1800px){
-	.img2_2 {	
-    width: 60%;
-}
+
 @media only screen and (min-width: 1340px) and (max-width: 1389px){
 	.img2_2 {
     width: 60%;
@@ -142,7 +210,7 @@
 
 @media only screen  and (max-width: 768px){
 	body{
-		/*width: 760px;*/
+		/*width: 760px;
 		width: 100%;
 	}
 	.img2_2 {
@@ -304,6 +372,7 @@
 	}
 	.content_review{
 		top: 7000px;
+
 	}
 	.question{
 		top: 8000px
