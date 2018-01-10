@@ -45,6 +45,7 @@
   }
  	.blank, .truck .blank2, .request3 .blank2, .request4 .blank{
  		width: 310px;
+		margin-top:0;
  	}
   
 	.fasadplate h1{
